@@ -1,0 +1,21 @@
+python-dotenv
+pandas
+numpy
+pymongo
+certifi
+pymongo[srv]
+scikit-learn
+mlflow
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+
+
+##-e .
+
+# -e . means install this project in editable mode, refer to the setup.py file. Execute entire project as package.
+# Lets you import your own project like a library (import myproject)
+# Any code changes are immediately reflected — no need to reinstall
+# Runs setup.py to install the project as a package
